@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: light;
+  --accent-1: #106EBE; /* blue */
+  --accent-2: #0FFCBE; /* mint */
+}
+
+.dark{
+  color-scheme: dark;
+  --accent-1: #3B82F6;
+  --accent-2: #5EEAD4;
+}
+
+html, body{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+/* Small helpers for the SVG route visualizer */
+.metro-node{
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+.metro-edge{
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Mint glow for hover states */
+.mint-glow{
+  box-shadow: 0 0 0 4px rgba(15, 255, 190, 0.18), 0 12px 35px rgba(15, 255, 190, 0.20);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
+
+
+
+
+

@@ -1,0 +1,419 @@
+{
+  "lines": [
+    {
+      "id": "Blue",
+      "name": "Blue Line (North-South)",
+      "operational": true,
+      "stations": [
+        "Dakshineswar",
+        "Baranagar",
+        "Noapara",
+        "Dum Dum",
+        "Belgachia",
+        "Shyambazar",
+        "Shobhabazar",
+        "Girish Park",
+        "MG Road",
+        "Central",
+        "Chandni Chowk",
+        "Esplanade",
+        "Park Street",
+        "Maidan",
+        "Rabindra Sadan",
+        "Netaji Bhavan",
+        "Jatin Das Park",
+        "Kalighat",
+        "Rabindra Sarobar",
+        "Mahanayak Uttam Kumar",
+        "Netaji",
+        "Masterda Surya Sen",
+        "Gitanjali",
+        "Kavi Nazrul",
+        "Shahid Khudiram",
+        "Kavi Subhash"
+      ]
+    },
+    {
+      "id": "Green",
+      "name": "Green Line (East-West)",
+      "operational": true,
+      "stations": [
+        "Howrah Maidan",
+        "Howrah",
+        "Mahakaran",
+        "Esplanade",
+        "Sealdah",
+        "Phoolbagan",
+        "Salt Lake Stadium",
+        "Bengal Chemical",
+        "City Centre",
+        "Central Park",
+        "Karunamoyee",
+        "Salt Lake Sector V"
+      ]
+    },
+    {
+      "id": "Orange",
+      "name": "Orange Line",
+      "operational": true,
+      "stations": [
+        "Kavi Subhash",
+        "Satyajit Ray",
+        "Jyotirindra Nandi",
+        "Kavi Sukanta",
+        "Hemanta Mukhopadhyay",
+        "VIP Bazaar",
+        "Ritwik Ghatak",
+        "Barun Sengupta",
+        "Beleghata"
+      ]
+    },
+    {
+      "id": "Yellow",
+      "name": "Yellow Line (Airport Line)",
+      "operational": true,
+      "stations": [
+        "Noapara",
+        "Dum Dum Cantonment",
+        "Jessore Road",
+        "Jai Hind (Airport)"
+      ]
+    },
+    {
+      "id": "Purple",
+      "name": "Purple Line",
+      "operational": true,
+      "stations": [
+        "Joka",
+        "Thakurpukur",
+        "Sakherbazar",
+        "Behala Chowrasta",
+        "Behala Bazar",
+        "Taratala",
+        "Majerhat"
+      ]
+    }
+  ],
+  "stations": {
+    "Dakshineswar": {
+      "lines": ["Blue"]
+    },
+    "Baranagar": {
+      "lines": ["Blue"]
+    },
+    "Noapara": {
+      "lines": ["Blue", "Yellow"]
+    },
+    "Dum Dum": {
+      "lines": ["Blue"]
+    },
+    "Belgachia": {
+      "lines": ["Blue"]
+    },
+    "Shyambazar": {
+      "lines": ["Blue"]
+    },
+    "Shobhabazar": {
+      "lines": ["Blue"]
+    },
+    "Girish Park": {
+      "lines": ["Blue"]
+    },
+    "MG Road": {
+      "lines": ["Blue"]
+    },
+    "Central": {
+      "lines": ["Blue"]
+    },
+    "Chandni Chowk": {
+      "lines": ["Blue"]
+    },
+    "Esplanade": {
+      "lines": ["Blue", "Green"]
+    },
+    "Park Street": {
+      "lines": ["Blue"]
+    },
+    "Maidan": {
+      "lines": ["Blue"]
+    },
+    "Rabindra Sadan": {
+      "lines": ["Blue"]
+    },
+    "Netaji Bhavan": {
+      "lines": ["Blue"]
+    },
+    "Jatin Das Park": {
+      "lines": ["Blue"]
+    },
+    "Kalighat": {
+      "lines": ["Blue"]
+    },
+    "Rabindra Sarobar": {
+      "lines": ["Blue"]
+    },
+    "Mahanayak Uttam Kumar": {
+      "lines": ["Blue"]
+    },
+    "Netaji": {
+      "lines": ["Blue"]
+    },
+    "Masterda Surya Sen": {
+      "lines": ["Blue"]
+    },
+    "Gitanjali": {
+      "lines": ["Blue"]
+    },
+    "Kavi Nazrul": {
+      "lines": ["Blue"]
+    },
+    "Shahid Khudiram": {
+      "lines": ["Blue"]
+    },
+    "Kavi Subhash": {
+      "lines": ["Blue", "Orange"]
+    },
+
+    "Howrah Maidan": {
+      "lines": ["Green"]
+    },
+    "Howrah": {
+      "lines": ["Green"]
+    },
+    "Mahakaran": {
+      "lines": ["Green"]
+    },
+    "Sealdah": {
+      "lines": ["Green"]
+    },
+    "Phoolbagan": {
+      "lines": ["Green"]
+    },
+    "Salt Lake Stadium": {
+      "lines": ["Green"]
+    },
+    "Bengal Chemical": {
+      "lines": ["Green"]
+    },
+    "City Centre": {
+      "lines": ["Green"]
+    },
+    "Central Park": {
+      "lines": ["Green"]
+    },
+    "Karunamoyee": {
+      "lines": ["Green"]
+    },
+    "Salt Lake Sector V": {
+      "lines": ["Green"]
+    },
+
+    "Satyajit Ray": {
+      "lines": ["Orange"]
+    },
+    "Jyotirindra Nandi": {
+      "lines": ["Orange"]
+    },
+    "Kavi Sukanta": {
+      "lines": ["Orange"]
+    },
+    "Hemanta Mukhopadhyay": {
+      "lines": ["Orange"]
+    },
+    "VIP Bazaar": {
+      "lines": ["Orange"]
+    },
+    "Ritwik Ghatak": {
+      "lines": ["Orange"]
+    },
+    "Barun Sengupta": {
+      "lines": ["Orange"]
+    },
+    "Beleghata": {
+      "lines": ["Orange"]
+    },
+
+    "Dum Dum Cantonment": {
+      "lines": ["Yellow"]
+    },
+    "Jessore Road": {
+      "lines": ["Yellow"]
+    },
+    "Jai Hind (Airport)": {
+      "lines": ["Yellow"]
+    },
+
+    "Joka": {
+      "lines": ["Purple"]
+    },
+    "Thakurpukur": {
+      "lines": ["Purple"]
+    },
+    "Sakherbazar": {
+      "lines": ["Purple"]
+    },
+    "Behala Chowrasta": {
+      "lines": ["Purple"]
+    },
+    "Behala Bazar": {
+      "lines": ["Purple"]
+    },
+    "Taratala": {
+      "lines": ["Purple"]
+    },
+    "Majerhat": {
+      "lines": ["Purple"]
+    }
+  },
+  "connections": [
+    { "from": "Dakshineswar", "to": "Baranagar", "line": "Blue" },
+    { "from": "Baranagar", "to": "Dakshineswar", "line": "Blue" },
+    { "from": "Baranagar", "to": "Noapara", "line": "Blue" },
+    { "from": "Noapara", "to": "Baranagar", "line": "Blue" },
+    { "from": "Noapara", "to": "Dum Dum", "line": "Blue" },
+    { "from": "Dum Dum", "to": "Noapara", "line": "Blue" },
+    { "from": "Dum Dum", "to": "Belgachia", "line": "Blue" },
+    { "from": "Belgachia", "to": "Dum Dum", "line": "Blue" },
+    { "from": "Belgachia", "to": "Shyambazar", "line": "Blue" },
+    { "from": "Shyambazar", "to": "Belgachia", "line": "Blue" },
+    { "from": "Shyambazar", "to": "Shobhabazar", "line": "Blue" },
+    { "from": "Shobhabazar", "to": "Shyambazar", "line": "Blue" },
+    { "from": "Shobhabazar", "to": "Girish Park", "line": "Blue" },
+    { "from": "Girish Park", "to": "Shobhabazar", "line": "Blue" },
+    { "from": "Girish Park", "to": "MG Road", "line": "Blue" },
+    { "from": "MG Road", "to": "Girish Park", "line": "Blue" },
+    { "from": "MG Road", "to": "Central", "line": "Blue" },
+    { "from": "Central", "to": "MG Road", "line": "Blue" },
+    { "from": "Central", "to": "Chandni Chowk", "line": "Blue" },
+    { "from": "Chandni Chowk", "to": "Central", "line": "Blue" },
+    { "from": "Chandni Chowk", "to": "Esplanade", "line": "Blue" },
+    { "from": "Esplanade", "to": "Chandni Chowk", "line": "Blue" },
+    { "from": "Esplanade", "to": "Park Street", "line": "Blue" },
+    { "from": "Park Street", "to": "Esplanade", "line": "Blue" },
+    { "from": "Park Street", "to": "Maidan", "line": "Blue" },
+    { "from": "Maidan", "to": "Park Street", "line": "Blue" },
+    { "from": "Maidan", "to": "Rabindra Sadan", "line": "Blue" },
+    { "from": "Rabindra Sadan", "to": "Maidan", "line": "Blue" },
+    { "from": "Rabindra Sadan", "to": "Netaji Bhavan", "line": "Blue" },
+    { "from": "Netaji Bhavan", "to": "Rabindra Sadan", "line": "Blue" },
+    { "from": "Netaji Bhavan", "to": "Jatin Das Park", "line": "Blue" },
+    { "from": "Jatin Das Park", "to": "Netaji Bhavan", "line": "Blue" },
+    { "from": "Jatin Das Park", "to": "Kalighat", "line": "Blue" },
+    { "from": "Kalighat", "to": "Jatin Das Park", "line": "Blue" },
+    { "from": "Kalighat", "to": "Rabindra Sarobar", "line": "Blue" },
+    { "from": "Rabindra Sarobar", "to": "Kalighat", "line": "Blue" },
+    { "from": "Rabindra Sarobar", "to": "Mahanayak Uttam Kumar", "line": "Blue" },
+    { "from": "Mahanayak Uttam Kumar", "to": "Rabindra Sarobar", "line": "Blue" },
+    { "from": "Mahanayak Uttam Kumar", "to": "Netaji", "line": "Blue" },
+    { "from": "Netaji", "to": "Mahanayak Uttam Kumar", "line": "Blue" },
+    { "from": "Netaji", "to": "Masterda Surya Sen", "line": "Blue" },
+    { "from": "Masterda Surya Sen", "to": "Netaji", "line": "Blue" },
+    { "from": "Masterda Surya Sen", "to": "Gitanjali", "line": "Blue" },
+    { "from": "Gitanjali", "to": "Masterda Surya Sen", "line": "Blue" },
+    { "from": "Gitanjali", "to": "Kavi Nazrul", "line": "Blue" },
+    { "from": "Kavi Nazrul", "to": "Gitanjali", "line": "Blue" },
+    { "from": "Kavi Nazrul", "to": "Shahid Khudiram", "line": "Blue" },
+    { "from": "Shahid Khudiram", "to": "Kavi Nazrul", "line": "Blue" },
+    { "from": "Shahid Khudiram", "to": "Kavi Subhash", "line": "Blue" },
+    { "from": "Kavi Subhash", "to": "Shahid Khudiram", "line": "Blue" },
+
+    { "from": "Howrah Maidan", "to": "Howrah", "line": "Green" },
+    { "from": "Howrah", "to": "Howrah Maidan", "line": "Green" },
+    { "from": "Howrah", "to": "Mahakaran", "line": "Green" },
+    { "from": "Mahakaran", "to": "Howrah", "line": "Green" },
+    { "from": "Mahakaran", "to": "Esplanade", "line": "Green" },
+    { "from": "Esplanade", "to": "Mahakaran", "line": "Green" },
+    { "from": "Esplanade", "to": "Sealdah", "line": "Green" },
+    { "from": "Sealdah", "to": "Esplanade", "line": "Green" },
+    { "from": "Sealdah", "to": "Phoolbagan", "line": "Green" },
+    { "from": "Phoolbagan", "to": "Sealdah", "line": "Green" },
+    { "from": "Phoolbagan", "to": "Salt Lake Stadium", "line": "Green" },
+    { "from": "Salt Lake Stadium", "to": "Phoolbagan", "line": "Green" },
+    { "from": "Salt Lake Stadium", "to": "Bengal Chemical", "line": "Green" },
+    { "from": "Bengal Chemical", "to": "Salt Lake Stadium", "line": "Green" },
+    { "from": "Bengal Chemical", "to": "City Centre", "line": "Green" },
+    { "from": "City Centre", "to": "Bengal Chemical", "line": "Green" },
+    { "from": "City Centre", "to": "Central Park", "line": "Green" },
+    { "from": "Central Park", "to": "City Centre", "line": "Green" },
+    { "from": "Central Park", "to": "Karunamoyee", "line": "Green" },
+    { "from": "Karunamoyee", "to": "Central Park", "line": "Green" },
+    { "from": "Karunamoyee", "to": "Salt Lake Sector V", "line": "Green" },
+    { "from": "Salt Lake Sector V", "to": "Karunamoyee", "line": "Green" },
+
+    { "from": "Kavi Subhash", "to": "Satyajit Ray", "line": "Orange" },
+    { "from": "Satyajit Ray", "to": "Kavi Subhash", "line": "Orange" },
+    { "from": "Satyajit Ray", "to": "Jyotirindra Nandi", "line": "Orange" },
+    { "from": "Jyotirindra Nandi", "to": "Satyajit Ray", "line": "Orange" },
+    { "from": "Jyotirindra Nandi", "to": "Kavi Sukanta", "line": "Orange" },
+    { "from": "Kavi Sukanta", "to": "Jyotirindra Nandi", "line": "Orange" },
+    { "from": "Kavi Sukanta", "to": "Hemanta Mukhopadhyay", "line": "Orange" },
+    { "from": "Hemanta Mukhopadhyay", "to": "Kavi Sukanta", "line": "Orange" },
+    { "from": "Hemanta Mukhopadhyay", "to": "VIP Bazaar", "line": "Orange" },
+    { "from": "VIP Bazaar", "to": "Hemanta Mukhopadhyay", "line": "Orange" },
+    { "from": "VIP Bazaar", "to": "Ritwik Ghatak", "line": "Orange" },
+    { "from": "Ritwik Ghatak", "to": "VIP Bazaar", "line": "Orange" },
+    { "from": "Ritwik Ghatak", "to": "Barun Sengupta", "line": "Orange" },
+    { "from": "Barun Sengupta", "to": "Ritwik Ghatak", "line": "Orange" },
+    { "from": "Barun Sengupta", "to": "Beleghata", "line": "Orange" },
+    { "from": "Beleghata", "to": "Barun Sengupta", "line": "Orange" },
+
+    { "from": "Noapara", "to": "Dum Dum Cantonment", "line": "Yellow" },
+    { "from": "Dum Dum Cantonment", "to": "Noapara", "line": "Yellow" },
+    { "from": "Dum Dum Cantonment", "to": "Jessore Road", "line": "Yellow" },
+    { "from": "Jessore Road", "to": "Dum Dum Cantonment", "line": "Yellow" },
+    { "from": "Jessore Road", "to": "Jai Hind (Airport)", "line": "Yellow" },
+    { "from": "Jai Hind (Airport)", "to": "Jessore Road", "line": "Yellow" },
+
+    { "from": "Joka", "to": "Thakurpukur", "line": "Purple" },
+    { "from": "Thakurpukur", "to": "Joka", "line": "Purple" },
+    { "from": "Thakurpukur", "to": "Sakherbazar", "line": "Purple" },
+    { "from": "Sakherbazar", "to": "Thakurpukur", "line": "Purple" },
+    { "from": "Sakherbazar", "to": "Behala Chowrasta", "line": "Purple" },
+    { "from": "Behala Chowrasta", "to": "Sakherbazar", "line": "Purple" },
+    { "from": "Behala Chowrasta", "to": "Behala Bazar", "line": "Purple" },
+    { "from": "Behala Bazar", "to": "Behala Chowrasta", "line": "Purple" },
+    { "from": "Behala Bazar", "to": "Taratala", "line": "Purple" },
+    { "from": "Taratala", "to": "Behala Bazar", "line": "Purple" },
+    { "from": "Taratala", "to": "Majerhat", "line": "Purple" },
+    { "from": "Majerhat", "to": "Taratala", "line": "Purple" }
+  ],
+  "interchanges": [
+    {
+      "station": "Noapara",
+      "type": "active",
+      "lines": ["Blue", "Yellow"]
+    },
+    {
+      "station": "Dum Dum",
+      "type": "nearby",
+      "note": "Nearby connectivity between Blue and Yellow (Yellow station is modeled as Dum Dum Cantonment in this dataset).",
+      "lines": ["Blue", "Yellow"],
+      "relatedStations": {
+        "Yellow": "Dum Dum Cantonment"
+      }
+    },
+    {
+      "station": "Esplanade",
+      "type": "active",
+      "lines": ["Blue", "Green"]
+    },
+    {
+      "station": "Sealdah",
+      "type": "future/partial",
+      "note": "Listed as Green + Orange interchange (future/partial).",
+      "lines": ["Green", "Orange"]
+    },
+    {
+      "station": "Kavi Subhash",
+      "type": "active",
+      "lines": ["Blue", "Orange"]
+    },
+    {
+      "station": "Majerhat",
+      "type": "future connectivity",
+      "note": "Listed as Purple + Green future connectivity.",
+      "lines": ["Purple", "Green"]
+    }
+  ]
+}
+
